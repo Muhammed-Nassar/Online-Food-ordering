@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xmlns:aop = "http://www.springframework.org/schema/aop"
+       xmlns:tx = "http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context.xsd
+                            http://www.springframework.org/schema/aop
+                            http://www.springframework.org/schema/aop/spring-aop.xsd
+                            http://www.springframework.org/schema/tx
+                            http://www.springframework.org/schema/tx/spring-tx.xsd"
+>
+    
+    <context:annotation-config/>
+    <context:component-scan base-package="com.aklny"/>
+    <aop:config proxy-target-class="true"/>
+    <aop:aspectj-autoproxy />
+    <tx:annotation-driven/>
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <bean  id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <!--<property name="username" value="jdbc:mysql://localhost:3306/aklny_app?UseUnicode=true&amp;characterEncoding=utf8" />-->
+        <property name="password" value="${jdbc.password}" />
+    </bean>
+    <bean  id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" >
+        <property name="dataSource" ref="dataSource"/>
+        <property name="annotatedClasses">
+            <list>
+                <value>com.aklny.dal.entity.AdminUserEntity</value>
+                <value>com.aklny.dal.entity.BranchEntity</value>
+                <value>com.aklny.dal.entity.CategoryEntity</value>
+                <value>com.aklny.dal.entity.CityEntity</value>
+                <value>com.aklny.dal.entity.ConsumerAddressEntity</value>
+                <value>com.aklny.dal.entity.ConsumerEntity</value>
+                <value>com.aklny.dal.entity.DeliveryZoneEntity</value>
+                <value>com.aklny.dal.entity.OrderEntity</value>
+                <value>com.aklny.dal.entity.OrderItemEntity</value>
+                <value>com.aklny.dal.entity.ProductEntity</value>
+                <value>com.aklny.dal.entity.ProviderEntity</value>
+                <value>com.aklny.dal.entity.ProviderUserEntity</value>
+                <value>com.aklny.dal.entity.ZoneEntity</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <value>
+                hibernate.dialect=org.hibernate.dialect.MySQLDialect
+            </value>
+        </property>
+    </bean>
+    <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+    
+    <bean  id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager" >
+        <property  name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    
+</beans>
