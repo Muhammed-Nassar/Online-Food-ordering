@@ -1,0 +1,14 @@
+com\aklny\common\bean\ProviderBean.class
+com\aklny\common\bean\CityBean.class
+com\aklny\common\bean\ProviderUserBean.class
+com\aklny\common\bean\AdminUserBean.class
+com\aklny\common\bean\CategoryBean.class
+com\aklny\common\bean\ZoneBean.class
+com\aklny\common\constant\CommonConstant.class
+com\aklny\common\bean\ConsumerBean.class
+com\aklny\common\bean\DeliveryZoneBean.class
+com\aklny\common\bean\ProductBean.class
+com\aklny\common\bean\OrderItemBean.class
+com\aklny\common\bean\BranchBean.class
+com\aklny\common\bean\OrderBean.class
+com\aklny\common\bean\ConsumerAddressBean.class
