@@ -21,7 +21,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
- * @author 4G
+ * @author Nassar
  */
 public class AklnyDALMain {
 
