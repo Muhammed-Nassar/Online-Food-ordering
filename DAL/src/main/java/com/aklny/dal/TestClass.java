@@ -24,8 +24,8 @@ public class TestClass {
         ProviderRepo bean = applicationContext.getBean("providerRepoImpl", ProviderRepo.class);
 //        ProviderEntity bean1 = applicationContext.getBean("providerEntity",ProviderEntity.class);
         ProviderEntity bean1 = new ProviderEntity();
-        bean1.setNameAr("TESTAR");
-        bean1.setNameEn("TestEN");
+        bean1.setNameAr("TESTnew");
+        bean1.setNameEn("Testnew");
         ProviderEntity add = bean.add(bean1);
         System.out.println("Begin added | "+add.getId());
         }catch(Exception e ){

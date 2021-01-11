@@ -1,44 +1,44 @@
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\ConsumerEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\CommonRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\ZoneRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\OrderItemRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\OrderRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\ConsumerAddressEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\AklnyDALMain.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\ProviderEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\DeliveryZoneRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\ProviderRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\ProductRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\CategoryEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\ConsumerRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\CategoryRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\ConsumerAddressRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\ZoneEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\AdminUserEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\OrderItemRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\BranchRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\ProviderUserRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\ProductRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\BranchEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\OrderEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\DBConnectionManager.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\ConsumerAddressRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\AdminUserRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\ProviderUserEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\CityRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\DeliveryZoneEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\BranchRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\OrderRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\CityEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\DeliveryZoneRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\CityRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\ProviderRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\AdminUserRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\ConsumerRepoImpl.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\ProviderUserRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\OrderItemEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\impl\AbstractEntityRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\TestClass.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\entity\ProductEntity.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\CategoryRepo.java
-E:\Fullstack -Development\Projects\Aklny\AklnyDAL\src\main\java\com\aklny\dal\repo\ZoneRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\CityRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\AdminUserEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\OrderItemRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\AbstractEntityRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\OrderItemRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\CityEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\OrderItemEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\AklnyDALMain.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\ConsumerAddressRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\ProductRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\CommonRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\ProviderUserRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\CategoryRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\ConsumerAddressEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\ProviderUserRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\CityRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\BranchEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\DeliveryZoneRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\ConsumerEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\ConsumerRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\TestClass.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\BranchRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\ConsumerRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\CategoryRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\DeliveryZoneRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\OrderEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\ZoneRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\ZoneRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\OrderRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\ProviderEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\BranchRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\ConsumerAddressRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\ProviderRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\ProductRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\AdminUserRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\OrderRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\AdminUserRepo.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\ProductEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\ZoneEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\DeliveryZoneEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\ProviderUserEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\repo\impl\ProviderRepoImpl.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\entity\CategoryEntity.java
+E:\Github\Online-Food-ordering\DAL\src\main\java\com\aklny\dal\DBConnectionManager.java
