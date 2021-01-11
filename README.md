@@ -21,5 +21,5 @@ there is more than one presentation.
 1- Admin web app using Servlets,JSP,HTML,CSS and bootstrap.
 2- Admin web app using Spring Data,Spring Boot,Spring RESTful API,MySql,Angular .
 
-Tools and Platforms :
+Tools and Platforms :  
 Intellij ,Apache Tomcat,MySQL workbench,pgAdmin4,visual studio code,visual paradigm and postman.
